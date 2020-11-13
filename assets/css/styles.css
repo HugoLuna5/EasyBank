@@ -230,6 +230,46 @@
   text-align: right;
   margin-top: 5px;
 }
+
+.containerC {
+  width: 110px;
+  display: flex;
+  justify-content: center;
+}
+
+.containerPositions {
+  margin-bottom: 25px;
+}
+
+.listVacats {
+  font-size: 22px;
+  list-style: none;
+  padding: 10px 0 0 0;
+  margin: 0;
+}
+
+.listType {
+  list-style: none;
+  font-size: 18px;
+  color: #777;
+  list-style: none !important;
+  margin: 0 !important;
+  clear: both;
+  padding: 6px;
+}
+.subListType {
+  padding: 5px;
+  list-style: none !important;
+}
+.subListType li {
+  padding: 4px;
+}
+.positionVa {
+  color: #31d06d;
+  text-decoration-style: none;
+  text-decoration: none;
+}
+
 @media screen and (min-width: 768px) {
   .latestArticles .title__h1 {
     text-align: left;
